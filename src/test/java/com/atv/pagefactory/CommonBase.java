@@ -226,6 +226,7 @@ public class CommonBase {
 		profile.setPreference("browser.download.manager.useWindow", false);
 		profile.setPreference("browser.download.manager.showAlertOnComplete",false);
 		profile.setPreference("browser.download.manager.closeWhenDone", false);
+		profile.setPreference("geo.enabled",false);
 		profile.setAcceptUntrustedCertificates(true);
 		profile.setAssumeUntrustedCertificateIssuer(false);
 		/*profile.setPreference("javascript.enabled", true);

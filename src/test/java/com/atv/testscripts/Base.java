@@ -21,6 +21,7 @@ public class Base {
 
 	public DriverHome driverhome;
 	public Login login;
+	
 	public static String passMessage = null;
 	public static String finalMessage = null;
 	public static String skipMessage = null;
