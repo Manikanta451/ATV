@@ -48,7 +48,7 @@
 				<configuration>
 				
 					<suiteXmlFiles>
-						<suiteXmlFile>ATVestNG.xml</suiteXmlFile>
+						<suiteXmlFile>ATVTestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					</configuration>
 			</plugin>
