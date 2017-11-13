@@ -21,8 +21,8 @@ public class StartApplication extends CommonBase{
 	        	  suitefiles.add("E://Seleniumeclipsewoekspace//ATV//ATVTestNG.xml");
 	        	  runner.setTestSuites(suitefiles);
 	        	  runner.run();
-	        	  Xl.generateReport("TestReport.xlsx");
-	        	  emailreport();
+	        	 /* Xl.generateReport("TestReport.xlsx");
+	        	  emailreport();*/
 	           } catch (Exception e) {
 	    	      e.printStackTrace();
 	         }
