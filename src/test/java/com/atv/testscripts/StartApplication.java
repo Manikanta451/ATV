@@ -18,7 +18,7 @@ public class StartApplication extends CommonBase{
 	        	  System.out.println("Application Started");
 	        	  TestNG runner=new TestNG();
 	        	  List<String> suitefiles=new ArrayList<String>();
-	        	  suitefiles.add("E://Seleniumeclipsewoekspace//Atv//ATVTestNG.xml");
+	        	  suitefiles.add("E://Seleniumeclipsewoekspace//ATV//ATVTestNG.xml");
 	        	  runner.setTestSuites(suitefiles);
 	        	  runner.run();
 	        	  Xl.generateReport("TestReport.xlsx");
